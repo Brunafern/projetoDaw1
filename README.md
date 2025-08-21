@@ -7,19 +7,21 @@ O site inclui páginas de **perfil**, **portfólio** e **informações** para ca
 O objetivo do projeto é demonstrar o uso de **HTML**, **CSS** (com estilos personalizados), e **JavaScript com API DOM**, incluindo manipulação de elementos e CRUD em `localStorage`.
 
 ## Estrutura do Projeto
-/
-├─ index.html
-├─ perfilbruna.html
-├─ portfoliobruna.html
-├─ informacoesbruna.html
-├─ perfilitamar.html
-├─ portfolioitamar.html
-├─ informacoesitamar.html
-├─ style.css
-├─ script.js
-└─ img/
-├─ bruna.jpeg
-└─ itamar.jpeg
+```
+   /
+   ├─ index.html
+   ├─ perfilbruna.html
+   ├─ portfoliobruna.html
+   ├─ informacoesbruna.html
+   ├─ perfilitamar.html
+   ├─ portfolioitamar.html
+   ├─ informacoesitamar.html
+   ├─ style.css
+   ├─ script.js
+   └─ img/
+   ├─ bruna.jpeg
+   └─ itamar.jpeg
+```
 
 
 ## Tecnologias Utilizadas
