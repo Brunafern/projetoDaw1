@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil Itamar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="tema-itamar">
+  <header>
+    <nav class="topnav">
+      <a class="brand" href="index.html">Mini Site</a>
+      <div class="menu">
+        <div class="has-submenu">
+          <a href="perfilbruna.html">Perfil Bruna</a>
+          <div class="submenu">
+            <a href="perfilbruna.html">Perfil</a>
+            <a href="portfoliobruna.html">Portfólio</a>
+            <a href="informacoesbruna.html">Informações</a>
+          </div>
+        </div>
+        <div class="has-submenu">
+          <a href="perfilitamar.html">Perfil Itamar</a>
+          <div class="submenu">
+            <a href="perfilitamar.html">Perfil</a>
+            <a href="portfolioitamar.html">Portfólio</a>
+            <a href="informacoesitamar.html">Informações</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1>Perfil - Itamar</h1>
+    <div class="card" style="text-align:center;">
+      <img src="img/itamar.jpeg" alt="Foto de Itamar" class="foto-perfil">
+      <h2>Itamar</h2>
+      <p>Desenvolvedor interessado em Java e Inteligência Artificial.</p>
+      <div style="margin-top:20px;">
+        <a href="informacoesitamar.html" class="btn" style="margin-right:10px;">Informações</a>
+        <a href="portfolioitamar.html" class="btn">Portfólio</a>
+      </div>
+    </div>
+    <!-- Seção de comentários -->
+    <div class="comment-section">
+      <h2>Comentários</h2>
+      <form id="commentForm">
+        <input type="text" id="commentInput" placeholder="Deixe um comentário..." required>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="commentCountArea" style="margin-bottom:8px;">
+        <span id="commentCount"></span> comentário(s)
+      </div>
+      <div id="commentList"></div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 - Mini Site | <a href="https://github.com">GitHub</a> | <a href="https://linkedin.com">LinkedIn</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
